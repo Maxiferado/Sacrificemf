@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\Bit_coin</sound>
+    <sound>sound\Bit_killer</sound>
+    <sound>sound\Bit_walk</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\Spr_player</sprite>
     <sprite>sprites\Spr_malo</sprite>
@@ -13,10 +17,19 @@
       <sprite>sprites\Spr_piso</sprite>
     </sprites>
     <sprite>sprites\Spr_portal</sprite>
-    <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\Spr_fuente</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\Obj_player</object>
+    <object>objects\Obj_box</object>
+    <object>objects\Obj_malo</object>
+    <object>objects\Obj_floor</object>
+    <object>objects\Obj_portal</object>
+    <object>objects\Obj_fuente</object>
+  </objects>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
