@@ -27,6 +27,8 @@
   <objects name="objects">
     <object>objects\Obj_player</object>
     <object>objects\Obj_box</object>
+    <object>objects\object9</object>
+    <object>objects\object8</object>
     <object>objects\Obj_malo</object>
     <object>objects\Obj_floor</object>
     <object>objects\Obj_portal</object>
