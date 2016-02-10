@@ -18,8 +18,11 @@
     </sprites>
     <sprite>sprites\Spr_portal</sprite>
     <sprite>sprites\Spr_fuente</sprite>
+    <sprite>sprites\sprite6</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Obj_player</object>
@@ -29,7 +32,10 @@
     <object>objects\Obj_portal</object>
     <object>objects\Obj_fuente</object>
   </objects>
-  <rooms name="rooms"/>
+  <rooms name="rooms">
+    <room>rooms\Wolrd_01</room>
+    <room>rooms\Win_rm</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
