@@ -8,6 +8,8 @@
     <sound>sound\Bit_coin</sound>
     <sound>sound\Bit_killer</sound>
     <sound>sound\Bit_walk</sound>
+    <sound>sound\Sound_dead</sound>
+    <sound>sound\Bit_burnplayer</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\Spr_player</sprite>
@@ -19,6 +21,10 @@
     <sprite>sprites\Spr_portal</sprite>
     <sprite>sprites\Spr_fuente</sprite>
     <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\sprite7</sprite>
+    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\spr_boxscore</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -28,11 +34,15 @@
     <object>objects\Obj_player</object>
     <object>objects\Obj_box</object>
     <object>objects\object9</object>
+    <object>objects\obj_score</object>
     <object>objects\object8</object>
     <object>objects\Obj_malo</object>
     <object>objects\Obj_floor</object>
     <object>objects\Obj_portal</object>
     <object>objects\Obj_fuente</object>
+    <object>objects\obj_lava</object>
+    <object>objects\obj_piso1</object>
+    <object>objects\object11</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Wolrd_01</room>
