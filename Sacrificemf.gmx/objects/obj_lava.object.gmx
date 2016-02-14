@@ -3,7 +3,7 @@
   <spriteName>sprite8</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>20</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_restart () ;
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>

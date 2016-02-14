@@ -25,11 +25,19 @@
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprite9</sprite>
     <sprite>sprites\spr_boxscore</sprite>
+    <sprite>sprites\Spr_burnpalyer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_large</font>
+    <font>fonts\fnt_small</font>
+    <font>fonts\font_title</font>
+    <font>fonts\font_instructions</font>
+    <font>fonts\font4</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Obj_player</object>
     <object>objects\Obj_box</object>
@@ -43,10 +51,14 @@
     <object>objects\obj_lava</object>
     <object>objects\obj_piso1</object>
     <object>objects\object11</object>
+    <object>objects\Obj_burnplayer</object>
+    <object>objects\Obj_gameover</object>
+    <object>objects\obj_enter</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_instrucctions</room>
     <room>rooms\Wolrd_01</room>
-    <room>rooms\Win_rm</room>
+    <room>rooms\Youwin</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

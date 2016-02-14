@@ -26,10 +26,12 @@
           <argument>
             <kind>1</kind>
             <string>speed= 0 ;
+instance_create(0,0,Obj_gameover);
 instance_destroy ();
 
 audio_play_sound(Bit_burnplayer,2,0)
 
+instance_create (x,y,Obj_burnplayer)
 </string>
           </argument>
         </arguments>
